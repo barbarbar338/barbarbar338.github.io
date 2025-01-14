@@ -126,5 +126,15 @@
 	"roll_history": "Zar Atma Geçmişi",
 	"roll": "At",
 	"no_roll_history": "Henüz Zar Atılmadı",
-	"add_die_first": "Lütfen önce bir zar ekleyin."
+	"add_die_first": "Lütfen önce bir zar ekleyin.",
+	"giveaway": "Çekiliş",
+	"giveaway_description": "Çekiliş yapma uygulaması",
+	"apps_giveaway": "Çekiliş - Uygulamalar",
+	"participants": "Katılımcılar",
+	"participants_description": "Katılımcı listesini aşağıya ekleyin. Her satır bir katılımcı olarak sayılır",
+	"winners": "Kazananlar",
+	"giveaway_roll": "Çek",
+	"no_giveaway_history": "Henüz bir çekiliş yapılmadı",
+	"no_participants_error": "Lütfen en az bir katılımcı ekleyin.",
+	"giveaway_result": "Kazanan: %{winner}<br/>Katılımcı Sayısı: %{participants} <br/>Tarih: %{date}"
 }

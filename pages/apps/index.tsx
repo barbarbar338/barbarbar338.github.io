@@ -2,7 +2,7 @@ import { AppsCard } from "@components/Apps/AppsCard";
 import { Layout } from "@components/Layout";
 import { useLocaleParser } from "@libs/localeParser";
 import type { NextPage } from "next";
-import { FaBomb, FaDice } from "react-icons/fa";
+import { FaBomb, FaBullhorn, FaDiceD20 } from "react-icons/fa";
 import { FiBox, FiCrop, FiX } from "react-icons/fi";
 
 const AppsPage: NextPage = () => {
@@ -40,9 +40,16 @@ const AppsPage: NextPage = () => {
 		{
 			name: parser.get("dice"),
 			description: parser.get("dice_description"),
-			icon: FaDice,
+			icon: FaDiceD20,
 			href: "/apps/dice",
 			color: "text-white-500",
+		},
+		{
+			name: parser.get("giveaway"),
+			description: parser.get("giveaway_description"),
+			icon: FaBullhorn,
+			href: "/apps/giveaway",
+			color: "text-purple-500",
 		},
 	];
 

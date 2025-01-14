@@ -126,5 +126,15 @@
 	"roll_history": "Roll History",
 	"roll": "Roll",
 	"no_roll_history": "No Dice Rolled Yet",
-	"add_die_first": "Please add a die first."
+	"add_die_first": "Please add a die first.",
+	"giveaway": "Giveaway",
+	"giveaway_description": "Giveaway application",
+	"apps_giveaway": "Giveaway - Apps",
+	"participants": "Participants",
+	"participants_description": "Add participant list below. Every line counts as one participant.",
+	"winners": "Winners",
+	"giveaway_roll": "Roll",
+	"no_giveaway_history": "No Giveaways Rolled Yet",
+	"no_participants_error": "Please add at least one participant.",
+	"giveaway_result": "Winner: %{winner}<br/>Participants: %{participants} <br/>Date: %{date}"
 }
