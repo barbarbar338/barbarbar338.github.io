@@ -72,7 +72,7 @@ const GiveawayAppPage: NextPage = () => {
 									history.map((item, idx) => (
 										<li
 											key={idx}
-											className="flex items-center text-xl bg-gray-700 p-2 rounded mt-2"
+											className="flex items-center text-xl p-2 bg-gray-300 dark:bg-gray-700 rounded mt-2"
 										>
 											{idx == 0 ? (
 												<FaLongArrowAltRight />

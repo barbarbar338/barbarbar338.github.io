@@ -5,7 +5,7 @@ import { useState } from "react";
 import { FaDice, FaLongArrowAltRight, FaTimes } from "react-icons/fa";
 import { toast } from "react-toastify";
 
-const MinesweeperAppPage: NextPage = () => {
+const DiceRollAppPage: NextPage = () => {
 	const parser = useLocaleParser();
 
 	const [dice, setDice] = useState<number>(1);
@@ -122,7 +122,7 @@ const MinesweeperAppPage: NextPage = () => {
 									history.map((item, idx) => (
 										<li
 											key={idx}
-											className="flex items-center text-xl"
+											className="flex items-center text-xl p-2 bg-gray-300 dark:bg-gray-700 rounded mt-2"
 										>
 											{idx == 0 ? (
 												<FaLongArrowAltRight className="mr-2" />
@@ -156,4 +156,4 @@ const MinesweeperAppPage: NextPage = () => {
 	);
 };
 
-export default MinesweeperAppPage;
+export default DiceRollAppPage;
