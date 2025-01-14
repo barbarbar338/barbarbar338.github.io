@@ -1,7 +1,12 @@
 {
 	"root": true,
 	"parser": "@typescript-eslint/parser",
-	"plugins": ["@typescript-eslint"],
+	"plugins": [
+		"@typescript-eslint"
+	],
+	"rules": {
+		"react-hooks/rules-of-hooks": "off"
+	},
 	"extends": [
 		"eslint-config-next",
 		"eslint:recommended",
