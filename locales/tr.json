@@ -112,5 +112,19 @@
 	"original_file_here": "Bu belgenin en güncel halini görmek için lütfen şu adresi ziyaret edin: https://338.rocks/tr/resume",
 	"resume_footer": "Bu belge Barış DEMİRCİ tarafından NextJS ve TailwindCSS kullanılarak hazırlanmıştır. Bu belgenin orijinali https://338.rocks/tr/resume sayfasındadır ve bu indirdiğiniz bir kopyasıdır. Lütfen orijinalini görmek için belirtilen siteyi ziyaret ediniz.",
 	"resume": "Öz Geçmiş",
-	"website": "İnternet Sitesi:"
+	"website": "İnternet Sitesi:",
+	"dice": "Zar",
+	"dice_description": "Zar atma uygulaması",
+	"apps_dice": "Zar - Uygulamalar",
+	"add_a_new_dice": "Yeni bir Zar Ekle",
+	"add": "Ekle",
+	"face_count": "Yüz Sayısı",
+	"face_number_must_be_positive": "Yüz sayısı pozitif bir sayı olmalıdır.",
+	"dices": "Zarlar",
+	"no_dice": "Henüz bir zar eklenmedi",
+	"die_list_item": "Yüz Sayısı: %{faces}",
+	"roll_history": "Zar Atma Geçmişi",
+	"roll": "At",
+	"no_roll_history": "Henüz Zar Atılmadı",
+	"add_die_first": "Lütfen önce bir zar ekleyin."
 }

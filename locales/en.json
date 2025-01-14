@@ -112,5 +112,19 @@
 	"original_file_here": "To see this document's the most updated version, please go to https://338.rocks/resume",
 	"resume_footer": "This document was prepared by Barış DEMİRCİ using NextJS and TailwindCSS. The original document is at https://338.rocks/resume and this is a copy you downloaded. Please visit the specified site to see the original.",
 	"resume": "Resumê",
-	"website": "Website:"
+	"website": "Website:",
+	"dice": "Dice",
+	"dice_description": "Dice rolling application",
+	"apps_dice": "Dice - Apps",
+	"add_a_new_dice": "Add a New Die",
+	"add": "Add",
+	"face_count": "Face Count",
+	"face_number_must_be_positive": "Face number must be a positive number",
+	"dices": "Dice",
+	"no_dice": "No Die Added Yet",
+	"die_list_item": "Faces: %{faces}",
+	"roll_history": "Roll History",
+	"roll": "Roll",
+	"no_roll_history": "No Dice Rolled Yet",
+	"add_die_first": "Please add a die first."
 }

@@ -2,7 +2,7 @@ import { AppsCard } from "@components/Apps/AppsCard";
 import { Layout } from "@components/Layout";
 import { useLocaleParser } from "@libs/localeParser";
 import type { NextPage } from "next";
-import { FaBomb } from "react-icons/fa";
+import { FaBomb, FaDice } from "react-icons/fa";
 import { FiBox, FiCrop, FiX } from "react-icons/fi";
 
 const AppsPage: NextPage = () => {
@@ -36,6 +36,13 @@ const AppsPage: NextPage = () => {
 			icon: FiCrop,
 			href: "/apps/overlay-creator",
 			color: "text-indigo-500",
+		},
+		{
+			name: parser.get("dice"),
+			description: parser.get("dice_description"),
+			icon: FaDice,
+			href: "/apps/dice",
+			color: "text-white-500",
 		},
 	];
 
