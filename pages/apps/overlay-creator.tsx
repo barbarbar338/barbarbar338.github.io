@@ -1,4 +1,5 @@
 import { Layout } from "@components/Layout";
+import { CONFIG } from "@libs/config";
 import { useLocaleParser } from "@libs/localeParser";
 import { shimmer } from "@libs/shimmer";
 import type { NextPage } from "next";
@@ -33,9 +34,9 @@ const OverlayCreatorAppPage: NextPage = () => {
 	const onSubmit = (e: FormEvent<HTMLFormElement>) => {
 		e.preventDefault();
 		setProduct(
-			`https://api.338.rocks/v2/canvas/overlay?overlay=${encodeURIComponent(
+			`${CONFIG.API_URL}/canvas/overlay.png?overlay=${encodeURIComponent(
 				overlay,
-			)}&imageURL=${encodeURIComponent(url)}`,
+			)}&avatar=${encodeURIComponent(url)}`,
 		);
 	};
 
