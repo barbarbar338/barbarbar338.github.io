@@ -52,7 +52,7 @@ export const Contact: FC = () => {
 						<div className="w-1/2 px-2">
 							<input
 								onChange={onMailChange}
-								className="block w-full appearance-none rounded-xl border border-gray-200 bg-gray-50 px-4 py-3 leading-tight text-gray-700 focus:border-gray-500 focus:bg-white focus:outline-none"
+								className="block w-full appearance-none rounded-xl border border-gray-500 dark:border-gray-700 bg-gray-100 dark:bg-indigo-900 px-4 py-3 leading-tight text-gray-700 dark:text-white focus:border-gray-500 dark:focus:border-gray-500 focus:bg-white dark:focus:bg-indigo-800 focus:outline-none"
 								type="email"
 								placeholder={parser.get("email")}
 							/>
@@ -60,7 +60,7 @@ export const Contact: FC = () => {
 						<div className="w-1/2 px-2">
 							<input
 								onChange={onNameChange}
-								className="block w-full appearance-none rounded-xl border border-gray-200 bg-gray-50 px-4 py-3 leading-tight text-gray-700 focus:border-gray-500 focus:bg-white focus:outline-none"
+								className="block w-full appearance-none rounded-xl border border-gray-500 dark:border-gray-700 bg-gray-100 dark:bg-indigo-900 px-4 py-3 leading-tight text-gray-700 dark:text-white focus:border-gray-500 dark:focus:border-gray-500 focus:bg-white dark:focus:bg-indigo-800 focus:outline-none"
 								type="text"
 								placeholder={parser.get("name")}
 							/>
@@ -69,7 +69,7 @@ export const Contact: FC = () => {
 					<div className="mb-4">
 						<textarea
 							onChange={onMessageChange}
-							className="block w-full appearance-none rounded-xl border border-gray-200 bg-gray-50 px-4 py-3 leading-tight text-gray-700 focus:border-gray-500 focus:bg-white focus:outline-none"
+							className="block w-full appearance-none rounded-xl border border-gray-500 dark:border-gray-700 bg-gray-100 dark:bg-indigo-900 px-4 py-3 leading-tight text-gray-700 dark:text-white focus:border-gray-500 dark:focus:border-gray-500 focus:bg-white dark:focus:bg-indigo-800 focus:outline-none"
 							placeholder={parser.get("write_something")}
 							rows={5}
 						></textarea>

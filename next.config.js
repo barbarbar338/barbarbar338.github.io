@@ -5,7 +5,6 @@ const nextConfig = {
 	reactStrictMode: true,
 	poweredByHeader: false,
 	trailingSlash: true,
-	swcMinify: true,
 	i18n: {
 		locales: ["en", "tr"],
 		defaultLocale: "en",
@@ -26,7 +25,7 @@ const nextConfig = {
 			},
 			{
 				source: "/instagram",
-				destination: "https://www.instagram.com/ben_baris.",
+				destination: "https://www.instagram.com/ben_baris.d",
 				permanent: true,
 			},
 			{

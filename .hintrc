@@ -1,9 +1,9 @@
 {
-  "extends": [
-    "development"
-  ],
-  "hints": {
-    "no-inline-styles": "off",
-    "apple-touch-icons": "off"
-  }
+	"extends": [
+		"development"
+	],
+	"hints": {
+		"no-inline-styles": "off",
+		"apple-touch-icons": "off"
+	}
 }
